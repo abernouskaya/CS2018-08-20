@@ -1,4 +1,7 @@
-package by.it._tasks_.bernouskaya.lesson02;
+package by.it.bernouskaya.lesson02;
+
+
+import java.util.Scanner;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и 4 раза выводит их сумму с обозначением системы счисления на экран в
@@ -15,5 +18,20 @@ OCT:42+32=74
 */
 class TaskC2 {
 
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Введите целое число a:");
+        int a=sc.nextInt();
+        System.out.println("Введите целое число b:");
+        int b=sc.nextInt();
+        int c=a+b;
+        System.out.println("DEC" + ":" + a + "+" + b + "=" + c);
+        System.out.println("BIN" + ":" + a + "+" + b + "=" + c);
+
+
+
+
+    }
 
 }

@@ -1,4 +1,4 @@
-package by.it._tasks_.bernouskaya.lesson02;
+package by.it.bernouskaya.lesson02;
 
 /*
 Выводим квадрат числа
@@ -19,5 +19,18 @@ int i=sc.nextInt();
 
  */
 
+
+
+import java.util.Scanner;
+
 class TaskB1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" Введите целое число a: ");
+        int a = sc.nextInt();
+        int b = a * a;
+        System.out.println(a + "*" + a + "=" + b);
+
+    }
+
 }

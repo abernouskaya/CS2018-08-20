@@ -1,4 +1,4 @@
-package by.it._tasks_.bernouskaya.lesson02;
+package by.it.bernouskaya.lesson02;
 /*
 напишите программу которая выводит на экран
 Hello world!
