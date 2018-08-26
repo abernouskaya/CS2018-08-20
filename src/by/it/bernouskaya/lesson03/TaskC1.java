@@ -29,9 +29,17 @@ import java.util.Scanner;
 class TaskC1 {
 
 
-//    public static void main(String[] args) {
-//        System.out.println(convertCelsiumToFahrenheit(40));
-//    }
+
+
+
+
+
+/*
+public static void main(String[] args) {
+System.out.println(convertCelsiumToFahrenheit(40));
+
+}
+*/
 
 
 }

@@ -24,7 +24,9 @@ class TaskC2 {
         int c=a+b;
         System.out.println("DEC" + ":" + a + "+" + b + "=" + c);
 
-String convert=Integer.toBinaryString(a);
+
+
+
 
         System.out.println("BIN" + ":" + a + "+" + b + "=" + c);
 
