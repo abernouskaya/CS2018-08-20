@@ -11,19 +11,21 @@ package by.it.bernouskaya.lesson02;
 Sum = 26
 */
 
+
+import by.it._examples_.demo03.Summator;
+
 import java.util.Scanner;
+
 class TaskC1 {
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in)
-            System.out.println("Введите число a: ");
-            int a = sc.nextInt();
-            System.out.println("Введите число b: ");
-            int b = sc.nextInt();
-            int c = a - a;
-            int d=c+b;
-            System.out.println("Sum" + " " + "=" + " " + d);
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=a+ b;
+        System.out.println("Sum" + " " + "=" + " " + c);
 
-         }
+    }
 
-}
+            }
+

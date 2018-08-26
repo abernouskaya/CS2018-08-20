@@ -17,21 +17,34 @@ HEX:22+1a=3c
 OCT:42+32=74
 */
 class TaskC2 {
-
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Введите целое число a:");
         int a=sc.nextInt();
-        System.out.println("Введите целое число b:");
-        int b=sc.nextInt();
+        int b= sc.nextInt();
         int c=a+b;
         System.out.println("DEC" + ":" + a + "+" + b + "=" + c);
+
+String convert=Integer.toBinaryString(a);
+
         System.out.println("BIN" + ":" + a + "+" + b + "=" + c);
 
 
+        System.out.println("HEX" + ":" + a + "+" + b + "=" + c);
+
+        Integer.toOctalString(a);
+        Integer.toOctalString(b);
+        Integer.toOctalString(c);
+        System.out.println("OCT" + ":" + a + "+" + b + "=" + c);
 
 
     }
 
-}
+
+    }
+
+
+
+
+
+
+
