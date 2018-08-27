@@ -1,6 +1,7 @@
 package by.it.bernouskaya.lesson02;
 
 
+
 import java.util.Scanner;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
@@ -25,17 +26,12 @@ class TaskC2 {
         System.out.println("DEC" + ":" + a + "+" + b + "=" + c);
 
 
-
-
-
         System.out.println("BIN" + ":" + a + "+" + b + "=" + c);
 
 
         System.out.println("HEX" + ":" + a + "+" + b + "=" + c);
 
-        Integer.toOctalString(a);
-        Integer.toOctalString(b);
-        Integer.toOctalString(c);
+
         System.out.println("OCT" + ":" + a + "+" + b + "=" + c);
 
 
