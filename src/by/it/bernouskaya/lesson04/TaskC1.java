@@ -44,21 +44,53 @@ public class TaskC1 {
         System.out.println("Какую вы хотите зарплату в $$$?");
 
         Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
+          int a=sc.nextInt();
 
-        if (a<300 | a>3000){
-            System.out.println("Мы вам перезвоним!");}
+        if (a<300 || a>3000)
+            System.out.println("Мы вам перезвоним!");
+
+        int month;
+        for (month=0; month<=14;month++) {
+           float b=(float)a;
+            switch (month) {
+                case 0:
+                    System.out.println("За месяц 0 начислено $0.0");break;
+                case 1:
+                    System.out.println("За январь начислено $" + (b+b/2));break;
+                case 2:
+                    System.out.println("За февраль начислено $" + (b+b/2));break;
+                case 3:
+                    System.out.println("За март начислено $" + (b+b/2));break;
+                case 4:
+                    System.out.println("За апрель начислено $" + (b+b/2));break;
+                case 5:
+                    System.out.println("За май начислено $" + (b+b/2));break;
+                case 6:
+                    System.out.println("За июнь начислено $" + b);break;
+                case 7:
+                    System.out.println("За июль начислено $" + b);break;
+                case 8:
+                    System.out.println("За август начислено $" + b);break;
+                    case 9:
+                    System.out.println("За сентябрь начислено $" + (b+b/2));break;
+                case 10:
+                    System.out.println("За октябрь начислено $" + (b+b/2));break;
+                case 11:
+                    System.out.println("За ноябрь начислено $" + (b+b/2));break;
+                case 12:
+                    System.out.println("За декабрь начислено $" + (b+b/2));break;
+                case 13:
+                    System.out.println("За месяц 13 начислено $0.0");break;
+                case 14:
+                    System.out.println("За месяц 14 начислено $0.0");break;
 
 
+            }
 
-
-
+        }
 
 
     }
-
-
-
-
+    
 
 }
