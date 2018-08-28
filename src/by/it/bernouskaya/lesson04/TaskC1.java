@@ -46,8 +46,8 @@ public class TaskC1 {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
 
-        if (a<300 & a>3000)
-            System.out.println("Мы вам перезвоним!");
+        if (a<300 | a>3000){
+            System.out.println("Мы вам перезвоним!");}
 
 
 

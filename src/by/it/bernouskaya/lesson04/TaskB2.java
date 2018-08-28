@@ -30,27 +30,28 @@ public class TaskB2 {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        while (a <=10) {
-            System.out.print(a + " ");
-            int b = a;
-            while (b <=9) {
-                int c = a * b;
-                if (c < 11)
-                    System.out.print(c + " ");
-                      
-                else
-                    System.out.print(c + " ");
-                b++;
-            }
-            System.out.println();
-            a++;
 
+
+      int b=1;
+        int c=1;
+
+        while (b <=a) {
+
+               while (c <=a) {
+                   System.out.print(b * c + " ");
+                   c++;
+               }
+            System.out.println();
+               b++;
+               c=1;
+
+
+               }
 
         }
 
-
     }
-}
+
 
 
 
