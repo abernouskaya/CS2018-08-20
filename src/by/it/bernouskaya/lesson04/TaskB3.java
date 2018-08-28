@@ -33,20 +33,24 @@ public class TaskB3 {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
           int b=1;
-          int sum=1+b;
+           int sum=1;
 
-          while(sum<=a) {
-                System.out.println(1 + "," + (1+sum) + (2+sum));
-                sum++;
+              while (sum <= a) {
+                  System.out.print(sum + ",");
 
-                if(sum >= a) continue;
-            System.out.println(1+ "," + sum);
+                  b=b+1;
+
+                  sum = (b * (b + 1) / 2);
+
+          }
 
         }
+
 
     }
 
-        }
+
+
 
 
 
