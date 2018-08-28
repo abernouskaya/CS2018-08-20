@@ -32,16 +32,16 @@ public class TaskB3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
+          int b=1;
+          int sum=1+b;
 
+          while(sum<=a) {
+                System.out.println(1 + "," + (1+sum) + (2+sum));
+                sum++;
 
-
-        for (int i = 1; i > a; i++) {
-
-            int sum = 1 + i++;
-
-
-            if (sum > a) continue;
+                if(sum >= a) continue;
             System.out.println(1+ "," + sum);
+
         }
 
     }
