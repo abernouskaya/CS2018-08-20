@@ -32,18 +32,19 @@ public class TaskB2 {
 
         while (a <=10) {
             System.out.print(a + " ");
-            int b = 1;
-            while (b <= 10) {
+            int b = a;
+            while (b <=9) {
                 int c = a * b;
-                if (c <= 10)
+                if (c < 11)
                     System.out.print(c + " ");
-
+                      
                 else
                     System.out.print(c + " ");
                 b++;
             }
             System.out.println();
             a++;
+
 
         }
 

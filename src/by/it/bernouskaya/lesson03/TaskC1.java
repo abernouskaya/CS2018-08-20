@@ -29,6 +29,16 @@ import java.util.Scanner;
 class TaskC1 {
 
 
+        static double convertCelsiumToFahrenheit(int celsium){
+            double result = celsium * 9 / 5 + 32;
+            return result;
+        }
+        public static void main(String[] args) {
+     double res=convertCelsiumToFahrenheit(40);
+     System.out.println(res);
+
+
+        }
 
 
 
