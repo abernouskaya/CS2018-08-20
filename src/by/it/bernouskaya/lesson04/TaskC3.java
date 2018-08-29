@@ -25,4 +25,10 @@ package by.it.bernouskaya.lesson04;
 
 public class TaskC3 {
 
-}
+        }
+
+
+
+
+
+
