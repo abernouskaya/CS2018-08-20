@@ -44,10 +44,12 @@ public class TaskC1 {
                 b.add(x);
             if (x%3==0 && x%2==0)
                 c.add(x);
-
              b.addAll(c);}
-
-
         }
+
+    private static void printList(List<Integer> list)
+    {
+
+    }
     }
 
