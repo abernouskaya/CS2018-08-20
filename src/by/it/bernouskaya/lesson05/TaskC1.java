@@ -10,11 +10,21 @@ package by.it.bernouskaya.lesson05;
     Сначала тот, который для x%3, потом тот, который для x%2, потом последний.
 */
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TaskC1 {
     public static void main(String[] args) throws Exception
     {
+        BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
+        ArrayList<Integer> list= new ArrayList<Integer>(20);
+        Collections.addAll(list);
+
+
+
 
     }
 
