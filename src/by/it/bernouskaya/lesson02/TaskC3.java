@@ -32,8 +32,32 @@ package by.it.bernouskaya.lesson02;
 */
 
 
-class TaskC3 {
+import java.util.Scanner;
 
-}
+class TaskC3 {
+    static double getWeight (int weight){
+        double g= 9.81;
+        double gmars = 3.86;
+        double result = weight*gmars/g;
+        double delta=result*100-((int)(result*100));
+        if (delta <0.5)
+            return (int) (result * 100) / 100.0;
+            else
+            return
+            (int) ((result * 100) + 1) / 100.00;
+        }
+        public static void main(String args[]){
+            Scanner sc=new Scanner(System.in);
+            int weight=sc.nextInt();
+            System.out.println(getWeight(weight));
+        }
+
+        }
+
+
+
+
+
+
 
 
