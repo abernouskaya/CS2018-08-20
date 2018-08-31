@@ -3,13 +3,39 @@ package by.it.bernouskaya.lesson06;
 public class Dog {
     private String name;
     private int age;
+    private  int weight;
+    private double power;
+
 
     public Dog() {
+    }
+
+    public Dog(String name, int age, int weight, double power) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.power = power;
     }
 
     public Dog(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public double getPower() {
+        return power;
+    }
+
+    public void setPower(double power) {
+        this.power = power;
     }
 
     public Dog(int age) {
